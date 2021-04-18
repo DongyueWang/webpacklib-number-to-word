@@ -1,7 +1,7 @@
 {
   "name": "numbertoword",
   "version": "3.0.1",
-  "description": "convert number to word",
+  "description": "convert number to word dong",
   "main": "dist/webpack-numbers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
