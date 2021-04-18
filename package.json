@@ -1,6 +1,6 @@
 {
   "name": "dongnumbertoword",
-  "version": "4.0.1",
+  "version": "5.0.1",
   "description": "convert number to word dong",
   "main": "dist/webpack-numbers.js",
   "scripts": {
