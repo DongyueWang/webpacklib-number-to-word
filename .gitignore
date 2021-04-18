@@ -8,21 +8,6 @@
 .DS_Store
 Thumbs.db
 
-# OCMS specificities
-XCMS.FrontOffice.Web/doc/*.xml
-XCMS.FrontOffice.Web/doc/*.txt
-XCMS.FrontOffice.Web/doc/GlobalCache*
-XCMS.FrontOffice.Web/doc/OCC/*
-XCMS.FrontOffice.Web/doc/MEL/*
-XCMS.FrontOffice.Web/doc/CDM/*
-XCMS.FrontOffice.Web/doc/ERB/*
-XCMS.FrontOffice.Web/doc/FDN/*
-XCMS.FrontOffice.Web/doc/ODB/*
-
-# CSS JS Generated Files
-/XCMS.FrontOffice.Web/css/**/*.css
-/XCMS.FrontOffice.Web/js/_min
-
 !.gitempty
 
 
@@ -85,15 +70,7 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 *.DotSettings
-XCMS.Database/XCMS.Database.dbmdl
 
-/XCMS.Cegid.Sale.ServiceContract/Service References/CegidSale/XCMS.Cegid.Sale.ServiceContract.CegidSale.GetHeaderList_Reply.datasource
-/XCMS.Cegid.Customer.ServiceContract/Service References/CegidCustomer/XCMS.Cegid.Customer.ServiceContract.CegidCustomer.CustomerQueryData.datasource
-/XCMS.Cegid.ItemInventory.ServiceContract/Service References/CegidItemInventory
-/XCMS.Cegid.ItemInventory.ServiceContract/Service References/CegidItemInventory/XCMS.Cegid.ItemInventory.ServiceContract.CegidItemInventory.AvailableQtyReturn.datasource
-/XCMS.Cegid.Loyalty.ServiceContract/Service References/CegidLoyalty
-/XCMS.Cegid.Loyalty.ServiceContract/Service References/CegidLoyalty/XCMS.Cegid.Loyalty.ServiceContract.CegidLoyalty.CardHeaderGet.datasource
-/XCMS.Cegid.Sale.ServiceContract/Service References/CegidSale
 .vs/
 
 applicationhost.config
@@ -105,33 +82,8 @@ node_modules
 # npm
 npm-debug.log
 
-# Assets (OCC Front-end perf)
-XCMS.FrontOffice.Web/assets/vendors/*
 
-# occ2016 Generated Files (Redesign)
-XCMS.FrontOffice.Web/occ2016/build/
-XCMS.FrontOffice.Web/occ2016/app/sass/common/fonts/_icons.scss
-XCMS.FrontOffice.Web/occ2016/app/sass/common/fonts/icons/
-XCMS.FrontOffice.Web/css/occ2016/
-XCMS.FrontOffice.Web/js/occ2016/
-XCMS.FrontOffice.Web/style-guide/
-XCMS.FrontOffice.Web/manifest.json
-XCMS.FrontOffice.Web/occ2016/report.html
-XCMS.HardCore/BusinessObjects/ProductSubscrBusinessObjectv2Redesign2017.cs
-
-XCMS.FrontOffice.Web/assets/css
-XCMS.FrontOffice.Web/assets/js/occ/desktop/min
-XCMS.FrontOffice.Web/assets/js/occ/mobile/min
-XCMS.FrontOffice.Web/occ2016/app/sass/common/fonts/iconfont.scss
-XCMS.FrontOffice.Web/Scripts
-XCMS.FrontOffice.Web/img
-XCMS.FrontOffice.Web/occ2016/profile.json
-XCMS.FrontOffice.Web/doc/Algolia
-XCMS.FrontOffice.Web/occ2016/package-lock.json
 
 # Rider files
 .idea/*
 .idea
-XCMS.FrontOffice.Web/js/checkoutV2/
-XCMS.FrontOffice.Web/js/checkoutV2/CheckoutStep1.js
-/XCMS.FrontOffice.Web/Properties/PublishProfiles
